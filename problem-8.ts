@@ -1,6 +1,6 @@
 {
     const validateKeys = <X>(obj:X,keys: (keyof X)[]) => {
-        let flag:Boolean = true;
+        let flag:boolean = true;
         keys.forEach((item)=> {
             if(!obj[item]){
                 flag = false;
